@@ -47,8 +47,7 @@ class Node:
         self.key = k
         self.next = n
         self.prev = p
-
-#Assumes nodeSequence[0] to be the head.
+        
 class sLinkedStack:
     def __init__(self,head):
         self.head = head
