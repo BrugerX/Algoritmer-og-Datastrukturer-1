@@ -107,7 +107,8 @@ def invert(x0,x1):
         return x1
     else:
         invert(x1,next)
-
+        
+#Takes a slinkly list and inverts the links before: x0->x1->x2| after: x2->x1->x0
 def invertSLinkyList(head):
     firstNext = head.next
     head.next = None
